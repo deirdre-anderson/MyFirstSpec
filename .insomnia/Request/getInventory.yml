@@ -1,0 +1,24 @@
+_id: getInventory
+type: Request
+parentId: fld_wrk_57aa7cc8381c4c358122a271a25fe5f83a21295d
+modified: 1603754622861
+created: 1603754557933
+url: "{{ base_url }}/store/inventory"
+name: Returns pet inventories by status
+description: Returns a map of status codes to quantities
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: api_key
+    disabled: false
+    value: "{{ api_key }}"
+authentication: {}
+metaSortKey: -1603754557933
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

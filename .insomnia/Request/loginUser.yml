@@ -1,0 +1,27 @@
+_id: loginUser
+type: Request
+parentId: fld_wrk_57aa7cc8381c4c358122a271a25fe5f812dea96f
+modified: 1603754622852
+created: 1603754557926
+url: "{{ base_url }}/user/login"
+name: Logs user into the system
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: username
+    disabled: false
+    value: string
+  - name: password
+    disabled: false
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1603754557926
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

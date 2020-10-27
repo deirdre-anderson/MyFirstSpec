@@ -1,0 +1,21 @@
+_id: placeOrder
+type: Request
+parentId: fld_wrk_57aa7cc8381c4c358122a271a25fe5f83a21295d
+modified: 1603754622860
+created: 1603754557932
+url: "{{ base_url }}/store/order"
+name: Place an order for a pet
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1603754557932
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

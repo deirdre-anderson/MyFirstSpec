@@ -1,0 +1,21 @@
+_id: createUsersWithListInput
+type: Request
+parentId: fld_wrk_57aa7cc8381c4c358122a271a25fe5f812dea96f
+modified: 1603754622854
+created: 1603754557927
+url: "{{ base_url }}/user/createWithList"
+name: Creates list of users with given input array
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1603754557927
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
